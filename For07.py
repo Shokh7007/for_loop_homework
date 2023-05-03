@@ -6,4 +6,10 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return
+    a=0
+    x=list(range(N))
+    for i in x:
+        if i%2==1:
+            a=a+i
+    return a
+print(main(12))
