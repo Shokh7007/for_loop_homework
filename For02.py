@@ -10,6 +10,5 @@ def main(n):
     for i in range(n):
         s.append(str(i))
     x=','.join(s)
-    a=str(x)
-    return a
+    return x
 print(main(5))
